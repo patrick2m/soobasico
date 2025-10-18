@@ -29,7 +29,7 @@ export default function App() {
       <h1>Júlia</h1>
       <div className="flex flex-col md:flex-row items-center gap-2">
         <LoveCounter startDate="2025-03-01" />
-        <BackgroundMusic src="/assets/GalCosta-PalavrasnoCorpo.mp3" />
+        <BackgroundMusic src={`${import.meta.env.BASE_URL}assets/GalCosta-PalavrasnoCorpo.mp3`} />
       </div>
       {/* Container */}
       <div className="max-w-md w-full h-[90vh] bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl p-4 m-4 flex flex-col">
