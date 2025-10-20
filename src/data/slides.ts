@@ -22,13 +22,13 @@ function daysSince(dateString: string): number {
 const conheciEm = "2025-03-01"; // data que você conheceu a Julia
 const diasJuntos = daysSince(conheciEm);
 
-const pedidoDeNamoroEm = "2025-09-18"; // data que você conheceu a Julia
+const pedidoDeNamoroEm = "2025-08-18"; // data que você conheceu a Julia
 const diasDeNamoro = daysSince(pedidoDeNamoroEm);
 
 export const slides: Slide[] = [
   { kind: 'text', id: 't1', content: 'É... eu sou nerd, acho que você já sabe disso.' },
   { kind: 'text', id: 't2', content: `Mas sabia que eu gosto de contar histórias?` },
-  { kind: 'text', id: 't3', content: `Opa, uma dica, se clicar ali no "Tocar", fica melhor o passeio 😊` },
+  { kind: 'text', id: 't3', content: `Opa, uma dica, se clicar ali no "Tocar" e aumentar o volume, fica melhor o passeio 😊` },
   { kind: 'text', id: 't4', content: `Essa é a hora que se estiver do meu lado deve me olhar assim...` },
   { kind: 'image', id: 'i1', src: `${import.meta.env.BASE_URL}assets/juliameolhando.jpg`, alt: 'Júlia me olhando' },
   { kind: 'text', id: 't5', content: `Mas voltando...` },
@@ -104,10 +104,10 @@ export const slides: Slide[] = [
   { kind: 'text', id: 't61', content: 'O suficiente pra entender que não preciso estar aqui recebendo o que entrego, pra estar bem.' },
   { kind: 'text', id: 't62', content: 'Como sempre foi, aqui as coisas são leves, só faz sentido ficar se puder ir a qualquer momento.' },
   { kind: 'text', id: 't63', content: 'E se não foi embora e quiser ficar, ótimo, meu gosto por inhame não foi tão ruim assim.' },
-  { kind: 'text', id: 't64', content: 'Não temos um pedido oficial, não temos algo concreto que somos, mas hoje faz 1 mês desse dia aí.' },
+  { kind: 'text', id: 't64', content: 'Não temos um pedido oficial, não temos algo concreto que somos, mas hoje fazem 2 mêses desse dia aí.' },
   { kind: 'image', id: 'i18', src: `${import.meta.env.BASE_URL}assets/juliasendopedidaemnamoro.jpg`, alt: 'Júlia no Oishi' },
   { kind: 'text', id: 't65', content: 'Que você se pediu em namoro por mim 😅, mais um pedido de namoro.' },
-  { kind: 'text', id: 't66', content: 'Um dia que resolvemos marcar como sendo nosso, 18/09/2025.' },
+  { kind: 'text', id: 't66', content: 'Um dia que resolvemos marcar como sendo nosso, 18/08/2025.' },
   { kind: 'text', id: 't67', content: `Hoje faz${diasDeNamoro !== 1 ? 'em' : ''} ${diasDeNamoro} dia${diasDeNamoro !== 1 ? 's' : ''} que posso dizer que te namoro ❤️ entre nós, pelo menos.` },
   { kind: 'text', id: 't68', content: 'E espero que esse contador nunca pare, pois é muito bom estar aqui.' },
   { kind: 'text', id: 't69', content: 'Obrigado por fazer o básico.' },
@@ -117,5 +117,4 @@ export const slides: Slide[] = [
   { kind: 'text', id: 't73', content: 'Você.' },
   { kind: 'image', id: 'i19', src: `${import.meta.env.BASE_URL}assets/fimcinema.jpg`, alt: 'Júlia no Oishi' },
   { kind: 'text', id: 't73', content: 'Fim.' },
-
 ]

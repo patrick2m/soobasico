@@ -9,7 +9,7 @@ export default function App() {
   const [index, setIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
   const slides = initialSlides
-  const changeInterval = 20000 // 20s
+  const changeInterval = 5000 // 5s
 
   useEffect(() => {
     if (isPaused) return
@@ -24,11 +24,11 @@ export default function App() {
   const goNext = () => setIndex((i) => (i + 1) % slides.length)
 
   return (
-    <div className="h-screen w-screen flex flex-col items-center justify-between pt-5">
+    <div className="h-[90vh] w-screen flex flex-col items-center justify-between pt-5">
       <header className="w-full flex flex-col md:flex-row items-center justify-between mb-4"></header>
-      <h1>Júlia</h1>
+      <h1 className="font-bold text-2xl pb-2">Júlia Lima</h1>
       <div className="flex flex-col md:flex-row items-center gap-2">
-        <LoveCounter startDate="2025-03-01" />
+        <LoveCounter startDate="2025-03-22T23:08:00" />
         <BackgroundMusic src={`${import.meta.env.BASE_URL}assets/GalCosta-PalavrasnoCorpo.mp3`} />
       </div>
       {/* Container */}
