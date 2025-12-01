@@ -66,7 +66,7 @@ export const slides: Slide[] = [
   { kind: 'image', id: 'i8', src: `${import.meta.env.BASE_URL}assets/lancheaposjogopaugrande.jpg`, alt: 'Lanche pro velox' },
   { kind: 'text', id: 't33', content: 'Como se não precisássemos de mais nada.' },
   { kind: 'text', id: 't34', content: 'Por estar comigo, vai em qualquer lugar.' },
-  { kind: 'image', id: 'i9', src: `${import.meta.env.BASE_URL}assets/capacetenorj.jpg`, alt: 'Mochilinha na cidade' },
+  { kind: 'image', id: 'i9', src: `${import.meta.env.BASE_URL}assets/cacetepenorj.jpg`, alt: 'Mochilinha na cidade' },
   { kind: 'text', id: 't35', content: 'Minha mochilinha, seja na cidade.' },
   { kind: 'image', id: 'i10', src: `${import.meta.env.BASE_URL}assets/viagemmagecapacete.jpg`, alt: 'Mochilinha na estrada' },
   { kind: 'text', id: 't36', content: 'Seja na estrada.' },
