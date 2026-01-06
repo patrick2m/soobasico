@@ -1,3 +1,9 @@
+Este projeto foi criado para presentear o amozin da minha vida contando um pouquinho da nossa história, com a música que começou isso tudo.
+
+Você pode acessar ele clicando em :
+
+(https://patrick2m.github.io/soobasico/)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
