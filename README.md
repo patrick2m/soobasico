@@ -2,7 +2,7 @@ Este projeto foi criado para presentear o amozin da minha vida contando um pouqu
 
 Você pode acessar ele clicando em :
 
-(https://patrick2m.github.io/soobasico/)
+https://patrick2m.github.io/soobasico/
 
 # React + TypeScript + Vite
 
